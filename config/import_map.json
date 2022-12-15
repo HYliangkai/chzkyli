@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "command/":"https://deno.land/x/cliffy@v0.25.5/command/",
+    "prompt/":"https://deno.land/x/cliffy@v0.25.5/prompt/",
+    "std/":"https://deno.land/std@0.167.0/"
+  }
+}

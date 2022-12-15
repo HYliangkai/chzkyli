@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"deno.enable": true, //开启deno
+		"deno.unstable": true, //不稳定API开启检查
+		"editor.formatOnSave": true, //保存进行代码检查
+		"[typescript]": {
+			"editor.defaultFormatter": "denoland.vscode-deno" //默认代码检查
+		},
+		"deno.cache": "./Cache", //外部依赖及打包文件存放位置
+		"deno.importMap": "./config/import_map.json", //路径引用文件存放位置
+		"deno.config": "./deno.jsonc",
+	}
+}

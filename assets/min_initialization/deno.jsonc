@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch  ./main.ts"
+  },
+  "fmt": {
+    "options": {
+      "singleQuote": true, //使用单引号替代双引号
+      "indentWidth": 2 //间距为2
+    }
+  },
+  "importMap": "./config/import_map.json"
+}
