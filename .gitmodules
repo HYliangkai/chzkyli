@@ -1,0 +1,6 @@
+[submodule "lib/FP"]
+	path = lib/FP
+	url = https://github.com/HYliangkai/fpSystem.git
+[submodule "static/template"]
+	path = static/template
+	url = https://github.com/HYliangkai/projectTemplate.git
