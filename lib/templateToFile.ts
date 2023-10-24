@@ -47,7 +47,7 @@ export const create_template_to_dir = async (
   ).then(() => Ok(true)).catch(() =>
     Err(new RunningError('❌ 项目创建失败,请重试'))
   )
-  if (res.is_err()) return res
+  if (res.is_err) return res
   const p = Deno.run({
     cmd: ['code', `./${project_name}`],
   })

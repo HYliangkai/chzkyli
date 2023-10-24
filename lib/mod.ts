@@ -7,5 +7,6 @@ export * as color from 'https://deno.land/std@0.202.0/fmt/colors.ts'
 export * as path from 'https://deno.land/std@0.182.0/path/mod.ts'
 
 export * from './FP/mod.ts'
+export * from './dirpath.ts'
 export * from './templateToFile.ts'
 export * from './error/mod.ts'
